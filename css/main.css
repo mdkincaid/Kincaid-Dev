@@ -1,5 +1,6 @@
 body {
-    padding: 0 2em 0 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 h1 {
     color: red;
@@ -32,6 +33,6 @@ nav > ul > li > a {
     padding: 9px;
 }
 
-nav > ul > li > a.active {
+nav > ul > li > a.hover {
     background-color: lightskyblue;
 }
