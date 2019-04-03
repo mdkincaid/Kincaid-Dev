@@ -11,3 +11,8 @@ header, footer {
 footer > hr {
     border-top: 1px dashed black;
 }
+
+nav > ul {
+    list-style-type: none;
+    display: inline;
+}
