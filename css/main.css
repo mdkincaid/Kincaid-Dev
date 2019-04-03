@@ -1,5 +1,5 @@
 body {
-    padding: 36px 2em 0 2em;
+    padding: 0 2em 0 2em;
 }
 h1 {
     color: red;
@@ -24,7 +24,7 @@ nav > ul {
 
 nav > ul > li {
     float: left;
-    border-right: 1px solid black;
+    border-right: 1px solid darkslategray;
 }
 
 nav > ul > li > a {
@@ -32,6 +32,6 @@ nav > ul > li > a {
     padding: 9px;
 }
 
-nav > ul > li > .active {
+nav > ul > li > a.active {
     background-color: lightskyblue;
 }
