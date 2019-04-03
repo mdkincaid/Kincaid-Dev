@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    padding-left: 3em;
 }
 h1 {
     color: red;
 }
 header, footer {
-    background-color: darkblue;
+    background-color: lightgray;
 }
