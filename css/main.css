@@ -1,5 +1,5 @@
 body {
-    padding-left: 2em;
+    padding: 0 2em 0 2em;
 }
 h1 {
     color: red;
@@ -9,5 +9,5 @@ header, footer {
 }
 
 footer > hr {
-    color: black;
+    border-top: 1px dashed black;
 }
