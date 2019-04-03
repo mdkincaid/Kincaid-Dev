@@ -14,4 +14,16 @@ footer > hr {
 
 nav > ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 9px;
 }
