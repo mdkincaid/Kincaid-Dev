@@ -3,7 +3,7 @@ body {
     padding-right: 2em;
 }
 h1 {
-    color: red;
+    color: darkslateblue;
 }
 header, footer {
     background-color: lightgray;
@@ -31,8 +31,4 @@ nav > ul > li {
 nav > ul > li > a {
     display: block;
     padding: 9px;
-}
-
-nav > ul > li > a.hover {
-    background-color: lightskyblue;
 }
