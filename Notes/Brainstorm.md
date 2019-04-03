@@ -2,6 +2,4 @@
 
 Ideas:
 
-* Web game
 * Blog
-* Store
