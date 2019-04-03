@@ -1,9 +1,13 @@
 body {
-    padding-left: 3em;
+    padding-left: 2em;
 }
 h1 {
     color: red;
 }
 header, footer {
     background-color: lightgray;
+}
+
+footer > hr {
+    color: black;
 }
