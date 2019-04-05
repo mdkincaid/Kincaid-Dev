@@ -1,16 +1,19 @@
 body {
     line-height: 1.6em;
     max-width: 40em;
-    padding: 0 .62em;
+    padding: .5em 3em 0;
     font: 1.2em/1.62 sans-serif;
+    margin: auto;
+}
+header {
+    background-color: darkgray;
+    height: 2em;
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     overflow: hidden;
-    position: fixed;
-    top: 0;
     background-color: darkgray;
 }
 nav li {
@@ -20,5 +23,20 @@ nav li {
 nav a {
     display: block;
     text-decoration: none;
-    padding-right: 1em;
+    padding-right: .5em;
+    padding-left: .5em;
+    text-align: center;
+    height: 2em;
+    vertical-align: middle;
+}
+nav a:hover, nav a:focus, nav a:active, nav a:visited {
+      text-decoration: none;
+      color: inherit;
+}
+h1 {
+    text-align: center;
+}
+#about-me {
+    float: right;
+    border-left: 1px solid black;
 }
