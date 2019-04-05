@@ -27,7 +27,6 @@ nav a {
     padding-left: .5em;
     text-align: center;
     height: 2em;
-    vertical-align: middle;
 }
 nav a:hover, nav a:focus, nav a:active, nav a:visited {
       text-decoration: none;
@@ -39,4 +38,14 @@ h1 {
 #about-me {
     float: right;
     border-left: 1px solid black;
+}
+
+.flex-body {
+    display: flex;
+    flex-direction: column; 
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
 }
