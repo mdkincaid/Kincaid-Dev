@@ -17,7 +17,6 @@ nav ul {
     background-color: darkgray;
 }
 nav li {
-    float: left;
     border-right: 1px solid black;
 }
 nav a {
@@ -35,17 +34,18 @@ nav a:hover, nav a:focus, nav a:active, nav a:visited {
 h1 {
     text-align: center;
 }
-#about-me {
-    float: right;
-    border-left: 1px solid black;
-}
-
-.flex-body {
-    display: flex;
-    flex-direction: column; 
-}
 
 .flex-nav {
     display: flex;
     flex-direction: row;
+}
+
+.nav-1 {
+    order: 1;
+}
+.nav-2 {
+    order: 2;
+}
+.nav-3 {
+    order: 3;
 }
